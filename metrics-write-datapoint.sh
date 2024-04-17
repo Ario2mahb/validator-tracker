@@ -6,7 +6,7 @@
 point=$1
 if [[ -z $point ]]; then
   echo "Data point not specified"
-  exit 1
+  exit 8
 fi
 
 echo "[$(date -u +"%Y-%m-%dT%H:%M:%SZ")] Influx data point: $point"
